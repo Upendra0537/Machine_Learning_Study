@@ -1,0 +1,82 @@
+sklearn
+model_selection
+	train_test_split - random_state
+	cross_val_score - scoring
+	GridSearchCV
+	validation_curve	
+preprocessing
+	MinMaxScaler
+	PolynomialFeatures - degree
+	Imputer
+	LabelEncoder
+	OneHotEncoder
+	StandardScaler
+	Normalizer
+	Binarizer
+
+feature_selection
+	SelectKBest
+	RFE
+	f_regression
+	chi2
+	VarianceThreshold
+
+decomposition
+	PCA
+
+manifold
+	MDS
+	TSNE
+
+cluster
+	KMeans
+	AgglomerativeClustering
+	
+
+svm
+	SVC - kernel,C,gamma
+datasets
+	make_regression
+	make_friedman1
+	make_classification
+	make_blobs
+	load_iris
+	load_digits
+
+neighbors - n_neighbors
+	KNeighborsClassifier
+	KNeighborsRegressor
+
+linear_model
+	LinearRegression
+	Ridge - alpha
+	Lasso - alpha
+	LogisticRegression - C
+tree
+	DecisionTreeClassifier - max_depth
+dummy
+	DummyClassifier - strategy
+metrics
+	confusion_matrix
+	accuracy_score
+	precision_score
+	recall_score
+	f1_score
+	classification_report
+	roc_auc_score
+
+naive_bayes
+	GaussianNB 
+
+neural_network
+	MLPClassifer - alpha,hidden_layer_sizes
+	MLPRegressor
+
+ensemble
+	RandomForestClassifier - n_estimators, max_depth, max_features
+	RandomForestRegressor
+	GradientBoostingClassifier - n_estimator,max_depth,learning_rate
+	GradientBoostingRegressor
+	ExtraTreeClassifier
+	ExtraTreeRegressor
+
